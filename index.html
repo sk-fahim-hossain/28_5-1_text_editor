@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Text Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-sky-700 p-5 w-9/12 mx-auto mt-12">
+        <header>
+            <h2 class="text-center text-white text-4xl mb-4">My text Editor</h2>
+        </header>
+        <main class="bg-red-400 w-9/12 mx-auto p-8">
+            <section class="flex space-x-28">
+                <div>
+                    <button id="bold-text" class="bg-blue-400 px-2 py-1 mr-2 " title="Bold Text">B</button>
+                    <button id="italic-text" class="bg-blue-400 px-2 py-1 mr-2 " title="Italic Text"><i>I</i></button>
+                    <button id="underline-text" class="bg-blue-400 px-2 py-1 mr-2 " title="Underline text"><u>U</u></button>
+                </div>
+                <div>
+                    <button id="left-text" class="bg-blue-400 px-2 py-1 mr-2  ">Left<button>
+                    <button id="center-text" class="bg-blue-400 px-2 py-1 mr-2  ">Center<button>
+                    <button id="right-text" class="bg-blue-400 px-2 py-1  ">Right<button>
+                    
+                </div>
+                <div>
+                    <input id="font-size-input" value="16" type="number" name="" id="" class="w-10">
+                    <button id="uppercase-lowercase" class="bg-blue-400 px-2 py-1 mr-2  ">aA</button>
+                    <input id="color-input" type="color" name="" id="">
+                </div>
+            </section>
+            <hr class="mt-5" />
+            <section style="overflow: none;">
+                <textarea name="" id="written-text" w-90 class="p-1 mt-4"></textarea>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
